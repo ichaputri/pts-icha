@@ -3,8 +3,9 @@ import { Table } from "react-bootstrap";
 
 function App() {
   return (
-    <div>
-      <Table solid bordered hover>
+    <div className = "col-sm-8 offset-sm-2">
+      <center><h2>Tabel pts icha</h2></center>
+      <Table striped bordered hover variant="dark">
         <thead>
           <tr>
             <th>#</th>
